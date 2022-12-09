@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen" />
+    <title>Trabalhar com links e listas</title>
+</head>
+<body>
+    <h1>Listas (que depois irão virar menus)</h1>
+    <hr id="linha1">
+    <h2 id="cabecalho_ol">Lista Ordenada</h2>
+    <ol type="a"> <!-- 1, A, a, I, i-->
+        <li><a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank" rel="external">Brasil</a></li>
+        <li><a href="https://www.youtube.com/watch?v=BvEDILLnlPY" target="_blank" rel="external">Rússia</a></li>
+        <li>Canadá</li>
+        <li>Portugal</li>
+    </ol>
+    <hr>
+    <h2 id="cabecalho_ul">Lista Não Ordenada</h2>
+    <ul type="square"> <!-- disc circle square -->
+        <li><a href="pagina2.html" target="_self" rel="internal">Cachorro</a></li> <!--hiperlink para página interna na mesma pasta-->
+        <li>Gato</li>
+        <li><a href="paginas/pagina3.html" target="_parent" rel="next">Piriquito</a></li>
+        <li><a href="arquivos/manualcalopsita.pdf" target="_blank" download="manualcalopsita.pdf" type="application/pdf" alt="manualcalopsita">Calopsita</a></li>
+        <li><a href="arquivos/manualcalopsita.zip" download="manualcalopsita.zip" type="application/zip">Canário</a></li>
+    </ul>
+    <hr>
+    <h2>Combinar lista ordenada com lista não ordenada</h2>
+    <h2>Bandas de rock favoritas</h2>
+    <ol>
+        <li>Bandas antigas</li>
+        <ul type="circle">
+            <li>The Police</li>
+            <li>The Cure</li>
+            <li>Metallica</li>
+        </ul>
+        <li>Bandas novas</li>
+        <ul type="circle">
+            <li>ColdPlay</li>
+            <li>U2</li>
+            <li>The CranBerry</li>
+        </ul>
+    </ol>
+    <hr>
+    <h2>Combinar lista não ordenada com lista ordenada</h2>
+    <h2>Refrigerantes favoritos</h2>
+    <ul>
+        <li>Antigos</li>
+        <ol type="a">
+            <li>Guarana Baré</li>
+            <li>Fanta Limão</li>
+            <li>Itucola</li>
+        </ol>
+        <li>Novos</li>
+        <ol type="a" start="4">
+            <li>Guaraná Antártica</li>
+            <li>Coca-cola</li>
+            <li>H2O</li>
+        </ol>
+    </ul>
+    <hr>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Cacau</dt>
+        <dd>O cacau é o fruto do cacaueiro e apresenta grande importância econômica, sendo utilizado na alimentação humana e também na indústria farmacêutica e cosmética.</dd>
+        <dt>Chocolate</dt>
+        <dd>O chocolate preto é fabricado na sua composição pelo Cacau, enquanto o chocolate branco é fabricado na sua composição por manteiga originada do leite </dd>
+
+
+
+    </dl>
+</body>
+</html>
